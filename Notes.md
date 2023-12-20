@@ -28,5 +28,5 @@ class DashBoardController extends Controller
 Notice the view function above has a second parameter; the view function can be used to send some data to the view like so:
 
 ```php
-view('viewname', $variable)
+view('viewname', ['key' => $value])
 ```
